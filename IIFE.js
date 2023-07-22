@@ -6,4 +6,3 @@ const title = ((action, type, subType) => {
     
   })(action, "Practical Exam", subType);
 
-  console.log("hi Atul")

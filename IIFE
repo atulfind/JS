@@ -1,7 +1,0 @@
-const title = ((action, type, subType) => {
-    if (action === "create") {
-      return `Add ${_.startCase(type)}`;
-    } 
-      return `Edit ${_.startCase(type)}`;
-    
-  })(action, "Practical Exam", subType);
