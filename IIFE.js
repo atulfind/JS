@@ -5,3 +5,4 @@ const title = ((action, type, subType) => {
       return `Edit ${_.startCase(type)}`; // this is change || sujeet change || yes || oyeee
     
   })(action, "Practical Exam", subType);
+
